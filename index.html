@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    
+        <title>Post it</title>
+        
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/style.css" />
+        
+        
+        <!--[if lt IE 9]>
+            <script src="scripts/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+    
+        
+        
+        <!-- Start Header -->
+        <header class="main">
+            
+            <h1>It's only HTML5</h1>
+            
+        </header>
+        <!-- End Header -->
+
+        <!-- Start Nav -->
+         <nav> 
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contacts</li>
+            </ul>
+        </nav>
+        <!-- End Nav -->
+        
+        <div class="clearfix"></div>
+        
+        <!-- Start Articles -->
+        <div class ="post">
+            <article>
+                <header>
+                    <h3>Our Progresses</h3>
+                    <p>Staticed by <span>Mostafa Yasin</span></p>
+
+                </header>
+                <div class="statics">
+                    project 1: <progress max="10" value="7"></progress>
+                    <hr>
+                    project 2: <progress max="10" value="4"></progress>
+
+                </div>
+
+            </article>
+
+            <article>
+                <header>
+                    <h3>Article To Explain the &lt;figure&gt; &amp; &lt;figurecaption&gt; tags</h3>
+                    <p>made by <span>Mostafa Yasin</span> on 25/1/2017</p>
+
+                </header>
+                <p>
+                    This is articl shows how to write a code of dive in html5 course with Osama Elzero 
+                    <details>
+                        <summary>Copyrights&copy;</summary>
+                        Elzero Web School
+                    </details>
+                </p>
+                <figure>
+                    <code>
+                        &lt;div&gt;<br>
+                        Hello World
+                        <br>
+                        &lt;&#92;div&gt;<br>
+                    </code>
+                    <code>
+                        &lt;div&gt;<br>
+                        Hello World
+                        <br>
+                        &lt;&#92;div&gt;<br>
+                    </code>
+                    <code>
+                        &lt;div&gt;<br>
+                        Hello World
+                        <br>
+                        &lt;&#92;div&gt;<br>
+                    </code>
+                    <figcaption>fig 1-1</figcaption>
+                </figure>
+
+            </article>
+            
+            <article>
+                <header>
+                    <h3>Quick Poll</h3>
+                    <p>Answeres By<span>Yasin</span></p>
+
+                </header>
+                <h4>How did you hear about us ?</h4>
+                <form>
+                
+                    <input list="feedback">
+                    <datalist id="feedback">
+                        <option>Frind</option>
+                        <option>Facebook</option>
+                        <option>Twitter</option>
+                        <option>Annonce</option>
+                        <option>Call from us</option>
+                        <option>Flyers</option>
+                    </datalist>
+                    <br />
+                    <input type="submit" value="Send">
+                </form>
+            </article>
+            
+            <article>
+                <section>
+                    <header>
+                    <h3>Tamally M3ak</h3>
+                    <p>Powered By:<span>Anghami</span></p>
+                    </header>
+                
+                    <h4>Amr Diab</h4>
+                
+                    <p>Subscribe for more awesome trackes <a>here!</a></p>
+                    <div class="audio">
+                        <audio src="media/audio/02.Tamally Maak.mp3" controls preload="auto">
+                             we are sorry! your browser doe not support video technology.
+                        </audio>
+                    </div>
+                </section>
+            </article>
+            
+            <section>
+                <article>
+                    <header>
+                        <h3>Awesome Player</h3>
+                        <p>Uploaded by : <span>Unknown user</span> on <time>25/1/2016</time> </p>
+                    </header>
+
+                    <h4>Old-man Playes football like a profissional </h4>
+                    <p>
+                        see that awesome old-man playes  football like a profissional one who playes a free style .
+                    </p>
+
+                    <div class="vid">
+                        <video src="media/video/awesome%20player.mp4" controls width="500px">
+                            we are sorry! your browser doe not support video technology.
+                        </video>
+                    </div>
+                </article>
+
+            </section>
+        </div>
+        <!-- End Articles -->
+        
+        
+        <!-- Start Sidebar -->
+        <aside>
+            <h3>WIDGETS</h3>
+            <section>
+                <h3>Categories</h3>
+                <ul>
+                    <li><a>Introduction</a></li>
+                    <li><a>APi Community</a></li>
+                    <li><a>New Attributes</a></li>
+                    <li><a>Multimedia Elements</a></li>
+                </ul>
+            </section>
+            
+            <section>
+                <h3>Performance</h3>
+                <div class="perform">
+                    CPU : <meter max="100" min="0" low="20" optimum="80" value="50"></meter>
+                    <hr />
+                    RAM : <meter max="100" min="0" low="20" optimum="80" value="80"></meter>
+                </div>
+            </section>
+            
+             <section>
+                <h3>Top Members</h3>
+                    <ul>
+                        <li>Mostafa : 120 point</li>
+                        <li>Yasin : 110 point</li>
+                        <li><bdi>محمد علي</bdi> : 90 point</li>
+                    </ul>                 
+            </section>
+            
+             <section>
+                <h3>Simple Process</h3>
+                
+                 <h4>Calculate Age</h4>
+                 
+                 <form oninput= "result.value = parseInt(Years.value) * 365 + ' Days.'">
+                     <lable>Age :</lable>
+                     <input type="text" name="Years" placeholder="Enter your age" />
+                     <br />
+                     <output name="result" ></output>
+                     
+                 </form>
+                 
+            </section>
+            
+            
+        </aside>
+        <div class="clearfix"></div>
+        <!-- End Sidebar -->
+        
+        <!-- Start Footer -->
+        <footer>
+            <p>Copyrights 2017&copy; All rights reserved</p>
+        </footer>
+        <!-- End Footer -->
+        
+    </body>
+</html>

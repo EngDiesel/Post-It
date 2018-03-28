@@ -1,0 +1,64 @@
+/* Global */
+*
+{
+    font-family: tahoma;
+}
+body
+{
+    background-image: url("../img/beautiful-city-lights-wallpaper.jpg");
+    background-size: 100%;
+    
+}
+.clearfix
+{
+	clear:both;
+}
+
+a
+{
+    color:#808080;
+    display: block;
+    float: left;
+   font-size: 12px;
+    
+    margin-left: 40px;
+}
+
+input
+{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    float: right;
+    margin-right: 40px;
+    font-weight: bolder;
+    font-size: 75%;
+}
+
+
+/* form */
+.form {
+	background-color:rgba(0,0,0,0.6);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    position: absolute;
+    top:20%;
+    left:30%
+}
+
+lable
+{
+    color:aliceblue;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 40px;
+    font-size: 105%
+}
+
+.form {
+	width: 400px;
+}

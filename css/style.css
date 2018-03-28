@@ -1,0 +1,256 @@
+/* Start Global */
+*
+{
+    margin: 0 ;
+    font-family: Arial;
+}
+
+body
+{
+    background-image: url("../img/ptrn.jpg");
+    
+}
+
+
+.audio
+{
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    height: 32px;
+}
+
+.vid 
+{
+	border: 1px solid darkgrey;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 500px;
+    height: 280px;
+    padding: 7px;
+    background-color: #fafafa;
+}
+.clearfix {
+	clear: both;
+}
+
+input
+{
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+hr
+{
+    margin : 15px 0;
+}
+
+/* End Global */
+
+/* Start Header */
+.main {
+	background-color: #203c5e;
+    padding: 20px;
+    color:#ddd;
+    text-align: center;
+}
+
+
+li:hover
+{
+    cursor: pointer;
+}
+/* End Header */
+
+/* Start Nav */
+nav
+{
+    background-color: #3269ad;
+    border-bottom: 1px solid #588ac7;
+}
+nav ul
+{
+    padding: 20px;
+    text-align: center;
+}
+nav ul li
+{
+    display: inline-block;
+    margin: 0
+}
+
+nav ul li:after
+{
+    content: " |";
+}
+nav ul li:last-child:after
+{
+    content: "";
+}
+/* End Nav */
+
+/* Start Articles */
+.post
+{
+    width: 74.5%;
+    float:right
+}
+
+.post article
+{
+    padding: 10px;
+    margin: 10px;
+    background-color:Rgba(0,0,0,0.9);
+    border: 1px solid #6e6e6e;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px
+}
+
+.post article h4
+{
+    color: aliceblue;
+    margin: 10px;
+}
+
+
+.post article p
+{
+    color: blanchedalmond;
+}
+
+.post article header p
+{
+    font-size: 70%
+}
+
+.post article header p span
+{
+    color: #0b190c;
+    font-weight: bold;
+}
+
+.post article header h3
+{
+    padding: 10px 0 0 0;
+    color: aliceblue
+}
+
+.post article header p
+{
+    padding: 0 0 10px;
+}
+
+.post article figure
+{
+    width: 457px;
+    background-color: #eee;
+    border: 1px solid #6e6e6e;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px
+}
+
+.post article figcaption
+{
+    text-align: center;
+}
+
+.post article figure code
+{
+    background-color: #ddd;
+    border: 1px solid #333;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+    padding: 20px
+}
+
+.post article input
+{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+/* Start Articles */
+
+/* Start Sidebar */
+
+aside
+{
+    margin:10px 0 10px 5px;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 25% ;
+    float:left;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+aside ul
+{
+    list-style: none;
+    line-height: 1.6;
+    text-align: center;
+    padding: 0;
+}
+
+aside h3
+{
+    background-color: #7b9c6e;
+    text-align: center;
+    color: #383838;
+    padding: 15px;
+    margin-bottom: 15px;
+    
+}
+
+aside section
+{
+    background-color: darkslategray;
+    margin:10px;
+    color: aliceblue;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+aside section h3
+{
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+    color:darkolivegreen;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+aside .perform
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* End Sidebar */
+
+
+/* Start Footer */
+footer
+{
+    background-color: #203c5e;
+    color: #ddd;
+    padding: 20px;
+    text-align: center;
+   
+}
+/* End Footer */
